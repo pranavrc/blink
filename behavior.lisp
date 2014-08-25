@@ -6,3 +6,12 @@
   effect
   type)
   
+(setq damage
+      (make-behavior
+       :name "damage"
+       :description "Hitpoint reduction"))
+
+(setq heal
+      (make-behavior
+       :name "heal"
+       :description "Hitpoint increase"))
